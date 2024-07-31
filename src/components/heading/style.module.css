@@ -1,0 +1,73 @@
+.content{
+    width: 100%;
+    background-color: var(--green-100);
+    max-width: var(--max-width);
+    padding: 0 var(--padding-horizontal);
+}
+.hiro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 88px;
+    padding-bottom: 64px;
+}
+
+.girl_image{
+    width: 550px;
+    animation: 1.5s topdown infinite ease-in-out alternate-reverse;
+}
+
+@keyframes topdown {
+    from{
+        margin-left: 0;
+    }to{
+        margin-right: 10px;
+    }
+}
+
+.title{
+    font-family: Thiccboi-bold;
+    font-size: 44px;
+}
+
+.description{
+    font-size: 17px;
+    margin-top: 8px;
+    opacity: .7;
+}
+
+.input_field{
+    height: 70px;
+    width: 520px;
+    margin-top: 32px;
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+.historic{
+    margin-top: 24px;
+    opacity: .7;
+    color:rgb(66, 66, 66)
+}
+
+.historic span{
+    color:#000;
+    font-family: Thiccboi-semibold;
+}
+
+.content_company p{
+  margin-bottom: -12px;
+    opacity: .7;
+}
+
+.content_company{
+    margin-top: 88px;
+  
+}
+
+.content_company div{
+    display: flex;
+    align-items: center;
+    gap:12px;
+    opacity: .7;
+}

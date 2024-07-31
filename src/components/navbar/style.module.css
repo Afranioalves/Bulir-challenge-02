@@ -1,0 +1,23 @@
+.container_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: var(--max-width);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    padding: 0 var(--padding-horizontal);
+}
+
+.content_link{
+    display: flex;
+    gap:64px
+}
+
+
+.content_link ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+}
