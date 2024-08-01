@@ -6,7 +6,9 @@
     height: 80px;
     width: 100%;
     position: fixed;
+    background-color: var(--green-100);
     padding: 0 var(--padding-horizontal);
+    z-index: 999;
 }
 
 .content_link{
