@@ -1,3 +1,10 @@
+.container{
+    max-width: var(--max-width);
+    padding: 40px var(--padding-horizontal);
+    padding-bottom: 64px;
+    margin-bottom: 40px;
+    background: linear-gradient(#fff,rgba(237, 242, 241, 0.405))
+}
 .section{
    flex:1;
    background-color: var(--red-100);
@@ -20,30 +27,89 @@
 
 .button{
     background-color: var(--green);
-    height: 40px;
-    width: 150px;
+    height: 45px;
+    width: 180px;
     border: none;
     cursor: pointer;
-    margin-top: 16px;
-    border-radius: 20px;
+    margin-top: 24px;
+    border-radius: 30px;
     color:#fff;
+    font-family: Thiccboi-medium;
+    font-size: 15px;
 }
-.container{
-    margin-top: 40px;
-    max-width: var(--max-width);
-    padding: 0 var(--padding-horizontal);
-    margin-bottom: 40px;
-}
+
 
 .content_section{
     display: flex;
     gap:24px;
 }
 
+.imagem_section{
+    animation: 2s topdown infinite ease-in-out alternate-reverse;
+
+}
+
 @keyframes topdown {
     from{
-        margin-left: 0;
+        margin-top: 0;
     }to{
-        margin-right: 10px;
+        margin-bottom: 5px;
     }
+}
+
+.content_cards{
+    margin-top: 56px;
+}
+
+.content_cards h1{
+    font-family: Thiccboi-semibold;
+    font-size: 22px;
+    opacity: .7;
+}
+
+.box_description{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.box_description p{
+    opacity: .7;
+}
+
+.link_more{
+    color:var(--green);
+}
+
+.cards{
+    margin-top: 24px;
+    display: flex;
+    gap:16px;
+}
+
+.card{
+    width: 350px;
+    padding: 24px;
+    border-radius: 16px;
+    background-color: var(--green-200);
+}
+
+.icon{
+    width: 50px;
+}
+
+.card_title{
+    font-family: Thiccboi-medium;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.total{
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+.card_description{
+    font-size: 15px;
+    opacity: .7;
 }

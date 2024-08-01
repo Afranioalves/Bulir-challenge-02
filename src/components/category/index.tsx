@@ -1,17 +1,7 @@
+import Link from 'next/link'
 import styles from './style.module.css'
-
-const Section = ({description, title, image, buttonText}:{description:string, title:string, image:string, buttonText:string}) =>{
-    return(
-        <div className={styles.section}>
-            <div>
-                <h2 className={styles.title}>{title}</h2>
-                <p>{description}</p>
-                <button className={styles.button}>{buttonText}</button>
-            </div>
-            <img src={`/images/${image}`}/>
-        </div>
-    )
-}
+import Section from './section'
+import Card from './card-category'
 
 const Category = () =>{
     return(
@@ -29,6 +19,41 @@ const Category = () =>{
                     buttonText='Criar Serviços'
                     description='Disponiblize os seus serviços cadastrando-lhes na plataforma, dê o preço,e começa a ganhar'
                 />
+            </div>
+
+            <div className={styles.content_cards}>
+                <h1>Categorias populares</h1>
+                <div className={styles.box_description}>
+                    <p>Mais de 20 serviços cadastrados</p>
+                    <Link href="#" className={styles.link_more}>Ver todas as categorias</Link>
+                </div>
+
+                <div className={styles.cards}>
+                    <Card 
+                        title='Development & TI'
+                        total={20}
+                        description='Serviços relacionadas com tecnologias e o mundo de programação'
+                        icon='developer.svg'
+                    />
+                    <Card 
+                        title='Development & TI'
+                        total={20}
+                        description='Serviços relacionadas com tecnologias e o mundo de programação'
+                        icon='developer.svg'
+                    />
+                    <Card 
+                        title='Development & TI'
+                        total={20}
+                        description='Serviços relacionadas com tecnologias e o mundo de programação'
+                        icon='developer.svg'
+                    />
+                    <Card 
+                        title='Development & TI'
+                        total={20}
+                        description='Serviços relacionadas com tecnologias e o mundo de programação'
+                        icon='developer.svg'
+                    />
+                </div>
             </div>
             
         </section>
