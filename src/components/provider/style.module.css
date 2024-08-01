@@ -1,0 +1,33 @@
+.container{
+    max-width: var(--max-width);
+    padding: 64px var(--padding-horizontal);
+    margin-top: 56px;
+    background-color: var(--yellow-100);
+    margin-bottom: 40px;
+}
+.title{
+    font-family: Thiccboi-semibold;
+    font-size: 24px;
+}
+.box_description{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.box_description p{
+    opacity: .7;
+}
+
+.providers{
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    gap:24px
+}
+
+.card_provider{
+    background-color: #fff;
+    border-radius: 12px;
+    height: 250px;
+}
