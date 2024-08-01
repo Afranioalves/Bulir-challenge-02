@@ -1,9 +1,14 @@
 :root {
   --max-width: 1650px;
   --green-100:#EDF2F1;
+  --green-200:#EDF2F1;
+  --green-300:#F2F8F7;
   --green:#007456;
+  --yellow-100:#FAF6EB;
   --yellow: #F4B93C;
   --red-100:#FDE7DE;
+  --lilas-100: #F5ECFF;
+  --lilas:#6C4CBE;
   --black:#000;
   --padding-horizontal:12vw;
 }
