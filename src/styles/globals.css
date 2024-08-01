@@ -59,3 +59,22 @@ body{
 img{
   max-width: 100%;
 }
+
+
+/*============ DOTS SWIPPER =============*/
+
+.hightlight-swiper .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  opacity: .2 !important;
+  background: teal !important;
+  margin-top: 124px !important;
+}
+
+.hightlight-swiper .swiper-pagination-bullet-active {
+  margin-top: 124px !important;
+  color: #fff;
+  opacity: 1 !important;
+  border-radius: 6px !important;
+  background: var(--green) !important;
+}
