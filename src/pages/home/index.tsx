@@ -9,16 +9,17 @@ import Download from '@/components/download'
 import Testimony from '@/components/testimony'
 import Footer from '@/components/footer'
 import { getFakeTestimony } from '@/actions/testimony'
+import { getCookie, hasCookie } from 'cookies-next'
+import service from '@/actions/service'
 
-const Home = ({testimony}:{testimony:Array<any>}) =>{
 
-    console.log(testimony)
-
+const Home = ({testimony, user, services}:{testimony:Array<any>, user:Object, services:Array<Object>}) =>{
+console.log(services)
     return(
         <>
         <Metadata title='Offices'/>
              <main>
-               <Heading />
+               <Heading user={user}/>
                <Category />
                <Service />
                <Provider />
@@ -35,12 +36,19 @@ const Home = ({testimony}:{testimony:Array<any>}) =>{
 export default Home
 
 export async function getServerSideProps<GetServerSideProps>(context:any){
-
+    const token:any = getCookie('TOKEN', context)
     const {data, error} = await getFakeTestimony()
+    const services = await service.findAll(token)
+    const user:any = getCookie('INFO', context)
+
     return{
         props:{
-           testimony: data.results
+           testimony: data.results,
+           user: JSON.parse(user),
+           services: services.data.content
+         
         }
     }
+    
 
 }

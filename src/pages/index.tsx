@@ -5,7 +5,9 @@ import Metadata from "@/components/metadata";
 import Input from "@/components/input";
 import Link from "next/link";
 import { useState } from "react";
-import { FormLogin, FormSignUp } from "@/components/form";
+import FormSignUp from "@/components/form/form-sign-up";
+import FormLogin from "@/components/form/form-sign-in";
+import { ToastContainer } from "react-toastify";
 
 
 
@@ -16,6 +18,7 @@ export default function Home() {
   return (
     <>
      <Metadata title="Autenticação"/>
+     <ToastContainer />
       <main className={styles.main}>
 
         <div className={styles.banner}>
@@ -40,3 +43,4 @@ export default function Home() {
     </>
   );
 }
+
