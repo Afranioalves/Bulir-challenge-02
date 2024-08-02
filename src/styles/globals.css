@@ -55,7 +55,8 @@
   padding: 0;
   margin: 0;
   font-family: Thiccboi-regular;
-  outline: none
+  outline: none;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -75,6 +76,10 @@ img{
 button:disabled{
   background-color:var(--green-300);
   cursor: not-allowed;
+}
+
+.foo-bar{
+  font-size: 14px !important;
 }
 
 
