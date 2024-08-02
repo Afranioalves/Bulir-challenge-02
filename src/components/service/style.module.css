@@ -7,7 +7,7 @@
 }
 
 .title{
-    font-family: Thiccboi-semibold;
+    font-family: Montserrat;
     font-size: 22px;
     opacity: .7;
 }
@@ -40,6 +40,7 @@
     padding: 24px;
     transition: .5s ease-in-out all;
     cursor: pointer;
+   
 }
 
 .card_service:hover{

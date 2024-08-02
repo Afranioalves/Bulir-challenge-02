@@ -1,0 +1,50 @@
+.container{
+    max-width: var(--max-width);
+    padding: 64px var(--padding-horizontal);
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:64px;
+    background: url('/images/background.svg');
+}
+
+.title{
+    font-family: Montserrat;
+    font-size: 26px;
+    color:#fff;
+    margin-bottom: 16px;
+   
+}
+
+.description{
+    color:#fff;
+    font-size: 17px;
+    margin-bottom: 24px;
+    line-height: 24px;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 17px;
+    color: #fff;
+    gap:12px;
+    font-family: Montserrat;
+}
+
+.check i{
+    font-size: 24px;
+}
+
+.box_image{
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    gap:12px;
+}
+
+.box_image img{
+    width: 150px;
+}

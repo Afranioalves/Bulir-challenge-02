@@ -1,0 +1,75 @@
+.container{
+    max-width: var(--max-width);
+    padding: 64px var(--padding-horizontal);
+    padding-bottom: 64px;
+    margin-bottom: 40px;
+    background: url('/images/background-2.svg');
+}
+
+.title{
+    font-family: Montserrat;
+    font-size: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+   
+}
+
+.description{
+    font-size: 16px;
+    text-align: center;
+}
+
+.testimonies{
+    margin-top: 48px;
+}
+
+.card{
+    width: 360px;
+    background-color: #fff;
+    height: 250px;
+    border-radius: 12px;
+    margin-bottom: 64px;
+    padding: 24px;
+}
+
+.box_avatar{
+    display: flex;
+    align-items: center;
+    gap:16px
+}
+.avatar{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.box_info{
+    display: flex;
+    justify-content: space-between;
+    flex:1
+}
+
+.name{
+    font-family: Thiccboi-semibold;
+    font-size: 17px;
+}
+
+.address{
+    font-size: 15px;
+    margin-top: 2px;
+    opacity: .7;
+}
+
+.quotes{
+    font-size: 26px;
+    color:var(--green)
+}
+
+.comment{
+    margin-top: 16px;
+    opacity: .7;
+    line-height: 22px;
+    font-size: 15px;
+    font-family: Montserrat;
+}

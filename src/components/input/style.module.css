@@ -1,0 +1,20 @@
+.input_field{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    margin-bottom: 16px;
+}
+
+.input_field input{
+    height: 50px;
+    border: 1px solid #b9b9b9;
+    padding: 0 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: .5s ease-in-out all;
+}
+
+.input_field input::placeholder{
+    font-size: 15px;
+}
+

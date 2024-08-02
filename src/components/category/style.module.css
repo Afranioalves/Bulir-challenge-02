@@ -16,13 +16,14 @@
 
 .title{
     margin-bottom: 12px;
-    font-family: Thiccboi-medium;
+    font-family: Montserrat;
     font-weight: 500;
 }
 
 .section p{
     opacity: .7;
     line-height: 20px;
+    
 }
 
 .button{
@@ -34,7 +35,7 @@
     margin-top: 24px;
     border-radius: 30px;
     color:#fff;
-    font-family: Thiccboi-medium;
+    font-family:Montserrat;
     font-size: 15px;
 }
 
@@ -62,7 +63,7 @@
 }
 
 .content_cards h1{
-    font-family: Thiccboi-semibold;
+    font-family: Montserrat;
     font-size: 22px;
     opacity: .7;
 }
