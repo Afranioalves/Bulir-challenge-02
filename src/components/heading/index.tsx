@@ -1,10 +1,10 @@
 import styles from './style.module.css'
 import Navbar from '../navbar'
 
-const Heading = () =>{
+const Heading = ({user}:{user:Object}) =>{
     return(
         <header>
-            <Navbar />
+            <Navbar user={user}/>
             <section className={styles.content}>
                 <div className={styles.hiro}>
                     <div>

@@ -30,28 +30,28 @@ const Category = () =>{
 
                 <div className={styles.cards}>
                     <Card 
-                        title='Development & TI'
+                        title='Tecnologias'
                         total={20}
                         description='Serviços relacionadas com tecnologias e o mundo de programação'
-                        icon='developer.svg'
+                        icon='tecnologia.png'
                     />
                     <Card 
-                        title='Development & TI'
+                        title='Saude'
                         total={20}
                         description='Serviços relacionadas com tecnologias e o mundo de programação'
-                        icon='developer.svg'
+                        icon='saude.png'
                     />
                     <Card 
-                        title='Development & TI'
+                        title='Beleza e bem-estar'
                         total={20}
                         description='Serviços relacionadas com tecnologias e o mundo de programação'
-                        icon='developer.svg'
+                        icon='inventar.png'
                     />
                     <Card 
-                        title='Development & TI'
+                        title='Educacional'
                         total={20}
                         description='Serviços relacionadas com tecnologias e o mundo de programação'
-                        icon='developer.svg'
+                        icon='bacharel.png'
                     />
                 </div>
             </div>

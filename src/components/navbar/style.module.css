@@ -1,6 +1,7 @@
 .container_nav{
     display: flex;
     align-items: center;
+    align-items: center;
     justify-content: space-between;
     max-width: var(--max-width);
     height: 80px;
@@ -22,4 +23,60 @@
     align-items: center;
     gap: 32px;
     list-style: none;
+}
+.list_link  li{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.list_link a{
+    color:#575757;
+    text-decoration: none;
+    font-family: Thiccboi-semibold;
+    font-weight: 600;
+}
+
+.selected{
+    border-top: 3px solid var(--green);
+    /*border-bottom: 2px solid var(--green);*/
+}
+
+.selected a{
+    color:var(--green);
+    opacity: 1;
+}
+
+.user_info{
+    display: flex;
+    align-items: center;
+    gap:24px;
+}
+
+.user_info div{
+    display: flex;
+    align-items: center;
+    gap:8px;
+   
+    
+}
+.username{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 17px;
+    opacity: .7;
+}
+
+.user_info img{
+    width: 35px;
+    border-radius: 50%;
+}
+
+.user_info button{
+    width: 140px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--green);
+    color:#fff;
+    font-size: 16px;
 }
