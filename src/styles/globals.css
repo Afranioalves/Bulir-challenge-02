@@ -38,12 +38,24 @@
   src: url('./fonts/THICCCBOI-Medium.woff2');
 }
 
+@font-face {
+  font-family: Montserrat;
+  src: url('./fonts/Montserrat.ttf');
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('./fonts/Poppins-Regular.ttf');
+}
+
+
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: Thiccboi-regular;
+  outline: none
 }
 
 html,
@@ -58,6 +70,11 @@ body{
 
 img{
   max-width: 100%;
+}
+
+button:disabled{
+  background-color:var(--green-300);
+  cursor: not-allowed;
 }
 
 

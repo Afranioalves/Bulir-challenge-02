@@ -1,4 +1,70 @@
 
+.main{
+  display: flex;
+}
+.banner{
+  background:url('/images/background.svg');
+  background-size: cover;
+  height: 100vh;
+  padding: 40px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.image{
+  width: 400px;
+}
+
+.description{
+  color:#ebebeb;
+  font-family: Montserrat;
+  line-height: 28px;
+  font-size: 17px;
+  
+}
+
+.box_forms{
+  flex: 1;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.box_option button{
+  height: 40px;
+  width: auto;
+  font-size: 18px;
+  font-family: Thiccboi-semibold;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  margin-right: 24px;
+}
+
+.selected{
+  border-bottom: 4px solid var(--green) !important;
+  color:var(--green);
+}
+
+.section{
+  width: 400px;
+}
+
+.logo{
+  position: absolute;
+  width: 100px;
+  top:32px;
+  right: 40px;
+}
+
+
+
+
+
 
 @media (prefers-reduced-motion) {
   .card:hover span {
