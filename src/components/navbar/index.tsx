@@ -5,6 +5,7 @@ import { getFirstName } from '@/libs/getname'
 
 const Navbar = ({user}:{user:any}) =>{
     return(
+        <section className={styles.container}>
         <nav className={styles.container_nav}>
             <div className={styles.content_link}>
                 <Image src='/logo.svg' width={130} height={60} alt='logotipo' />
@@ -25,6 +26,7 @@ const Navbar = ({user}:{user:any}) =>{
             </div>
             
         </nav>
+        </section>
     )
 }
 

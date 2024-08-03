@@ -28,6 +28,7 @@ const Testimony = ({data}:{data:Array<any>}) =>{
             })
       }
     return(
+      <main className={styles.main}>
         <section className={styles.container}>
             <h1 className={styles.title}>O que as pessoas dizem</h1>
             <p className={styles.description}>Não acredite apenas na nossa palavra, acredite na deles também</p>
@@ -49,6 +50,7 @@ const Testimony = ({data}:{data:Array<any>}) =>{
             </Swiper>
                 </div>
         </section>
+        </main>
     )
 }
 

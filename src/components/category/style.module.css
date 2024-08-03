@@ -1,9 +1,14 @@
+
+.full_container{
+    background: linear-gradient(#fff,rgba(237, 242, 241, 0.405))
+}
 .container{
     max-width: var(--max-width);
     padding: 40px var(--padding-horizontal);
     padding-bottom: 64px;
     margin-bottom: 40px;
-    background: linear-gradient(#fff,rgba(237, 242, 241, 0.405))
+    margin: auto;
+   
 }
 .section{
    flex:1;

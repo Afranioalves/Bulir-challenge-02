@@ -2,6 +2,7 @@
     max-width: var(--max-width);
     padding: 40px var(--padding-horizontal);
     padding-bottom: 64px;
+    margin: auto;
     margin-bottom: 40px;
     display: flex;
     justify-content: space-between;

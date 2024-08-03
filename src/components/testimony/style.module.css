@@ -1,9 +1,13 @@
+.main{
+    background: url('/images/background-2.svg');
+}
 .container{
     max-width: var(--max-width);
     padding: 64px var(--padding-horizontal);
+    margin: auto;
     padding-bottom: 64px;
     margin-bottom: 40px;
-    background: url('/images/background-2.svg');
+  
 }
 
 .title{

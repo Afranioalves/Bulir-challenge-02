@@ -6,6 +6,7 @@
 
 .footer{
     max-width: var(--max-width);
+    margin: auto;
     padding: 64px var(--padding-horizontal) 0 var(--padding-horizontal);
 }
 

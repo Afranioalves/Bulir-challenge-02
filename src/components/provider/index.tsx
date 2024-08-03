@@ -25,6 +25,7 @@ const Provider = ({data}:{data:Array<any>}) =>{
             })
       }
     return(
+        <main className={styles.main}>
         <section className={styles.container}>
             <h1 className={styles.title}>Prestadores</h1>
                 <div className={styles.box_description}>
@@ -47,6 +48,7 @@ const Provider = ({data}:{data:Array<any>}) =>{
             </Swiper>
                 </div>
         </section>
+        </main>
     )
 }
 

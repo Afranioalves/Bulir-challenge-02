@@ -2,6 +2,7 @@
     max-width: var(--max-width);
     padding: 0 var(--padding-horizontal);
     padding-bottom: 64px;
+    margin: auto;
     margin-top: 56px;
     margin-bottom: 40px;
 }

@@ -3,7 +3,7 @@ import Navbar from '../navbar'
 
 const Heading = ({user}:{user:Object}) =>{
     return(
-        <header>
+        <header className={styles.header}>
             <Navbar user={user}/>
             <section className={styles.content}>
                 <div className={styles.hiro}>

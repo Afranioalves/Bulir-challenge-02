@@ -5,6 +5,7 @@ import Card from './card-category'
 
 const Category = () =>{
     return(
+        <section className={styles.full_container}>
         <section className={styles.container}>
             <div className={styles.content_section}>
                 <Section
@@ -56,6 +57,7 @@ const Category = () =>{
                 </div>
             </div>
             
+        </section>
         </section>
     )
 }

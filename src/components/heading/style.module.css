@@ -1,7 +1,12 @@
+.header{
+    background-color: var(--green-100);
+}
+
 .content{
     width: 100%;
-    background-color: var(--green-100);
+   
     max-width: var(--max-width);
+    margin: auto;
     padding: 0 var(--padding-horizontal);
 }
 .hiro{

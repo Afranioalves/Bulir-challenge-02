@@ -2,6 +2,7 @@ import styles from './style.module.css'
 
 const Download = () =>{
     return(
+        <main className={styles.main}>
         <section className={styles.container}>
             <img src="/images/phone.svg" alt="" />
             <div>
@@ -17,6 +18,7 @@ const Download = () =>{
                 </div>
             </div>
         </section>
+        </main>
     )
 }
 

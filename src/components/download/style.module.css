@@ -1,13 +1,17 @@
+.main{
+    background: url('/images/background.svg');
+}
+
 .container{
     max-width: var(--max-width);
     padding: 64px var(--padding-horizontal);
     padding-bottom: 64px;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     gap:64px;
-    background: url('/images/background.svg');
-}
+} 
 
 .title{
     font-family: Montserrat;
