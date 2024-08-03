@@ -2,8 +2,15 @@ import styles from './style.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import { getFirstName } from '@/libs/getname'
+import { useRouter } from 'next/router'
+import { toastError } from '@/utils/toaster'
 
 const Navbar = ({user}:{user:any}) =>{
+    const router = useRouter()
+    const handlerGot = () =>{
+        if(user.userType == 'CLIENTE') return toastError('TIPO DE CONTA, NÃO PERMITE CRIAR SERVIÇO')
+            router.push('/home/profile/service')
+    }
     return(
         <section className={styles.container}>
         <nav className={styles.container_nav}>
@@ -22,7 +29,7 @@ const Navbar = ({user}:{user:any}) =>{
                     <p className={styles.username}>{getFirstName(user.fullName)}</p>
                 </div>
                 </Link>
-                <button>Criar serviço</button>
+                <button onClick={()=>handlerGot()}>Criar serviço</button>
             </div>
             
         </nav>

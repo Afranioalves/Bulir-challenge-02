@@ -22,7 +22,7 @@ console.log(services)
         <ToastContainer />
              <main>
                <Heading user={user}/>
-               <Category />
+               <Category  user={user}/>
                <Service data={services}/>
                <Provider data={testimony}/>
                <About />
