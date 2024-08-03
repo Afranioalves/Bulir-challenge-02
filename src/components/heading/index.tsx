@@ -14,7 +14,9 @@ const Heading = ({user}:{user:Object}) =>{
                         </h1>
                         <p className={styles.description}>Prestadores, preços baixos e serviços únicos, somente aqui</p>
                         <div className={styles.input_field}>
-
+                        <i className='bx bx-search'></i>
+                        <input type='search' placeholder='O que desejas encontrar'/>
+                        <button>Pesquisar</button>
                         </div>
                         <p className={styles.historic}>Pesquisas populares: <span>Software, Carpinteiro, Jogos</span></p>
                         <div className={styles.content_company}>
