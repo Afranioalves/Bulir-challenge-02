@@ -3,13 +3,27 @@ import CardProvider from './card-provider'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
 
-const Provider = () =>{
+const Provider = ({data}:{data:Array<any>}) =>{
     const pagination = {
         clickable: true,
         renderBullet: function (index:any, className:any) {
           return '<span class="' + className + '"></span>';
         },
       };
+
+      const renderProvider = () =>{
+
+            return data.map((provider, index)=>{
+                  return(
+                        <SwiperSlide key={index}>
+                              <CardProvider
+                                    name={`${provider.name.first} ${provider.name.last}`}
+                                    avatar={provider.picture.medium}
+                               />
+                         </SwiperSlide>
+                  )
+            })
+      }
     return(
         <section className={styles.container}>
             <h1 className={styles.title}>Prestadores</h1>
@@ -29,24 +43,7 @@ const Provider = () =>{
                     delay: 5000,
                   }}
             >
-                  <SwiperSlide>
-                        <CardProvider />
-                  </SwiperSlide>
-                  <SwiperSlide>
-                        <CardProvider />
-                  </SwiperSlide>
-                  <SwiperSlide>
-                        <CardProvider />
-                  </SwiperSlide>
-                  <SwiperSlide>
-                        <CardProvider />
-                  </SwiperSlide>
-                  <SwiperSlide>
-                        <CardProvider />
-                  </SwiperSlide>
-                  <SwiperSlide>
-                        <CardProvider />
-                  </SwiperSlide>
+                 {renderProvider()}
             </Swiper>
                 </div>
         </section>

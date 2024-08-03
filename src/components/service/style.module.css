@@ -27,8 +27,8 @@
 
 .cotent_services{
     display: grid;
-    grid-template-columns: repeat(3, minmax(250px, 1fr));
-    gap:24px;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap:16px;
     margin-top: 32px;
 }
 
@@ -43,10 +43,33 @@
    
 }
 
+.button_contract{
+    width: 130px;
+    height: 40px;
+    margin-top: 16px;
+    border-radius: 24px;
+    border: none;
+    color: var(--green);
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid var(--green);
+    font-family: Thiccboi-semibold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+    transition:  .5s ease-in-out all;
+}
+
 .card_service:hover{
     box-shadow: 0 4px 12px rgba(124, 124, 124, 0.101);
 }
 
+.card_service:hover button{
+   background-color: var(--green);
+   color:#fff;
+}
 
 .box_icon{
     display: flex;
@@ -56,6 +79,8 @@
 
 .icon{
     width: 48px;
+    height: 48px;
+    border-radius: 50%;
 }
 
 .box_more_info{
@@ -70,6 +95,13 @@
     border-radius: 30px;
     padding:8px 16px;
     font-family: Thiccboi-semibold;
+}
+
+.description{
+    margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 20px;
+    opacity: .7;
 }
 
 .category{

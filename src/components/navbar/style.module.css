@@ -52,6 +52,11 @@
     gap:24px;
 }
 
+.user_info a{
+    color:#000;
+    text-decoration: none;
+}
+
 .user_info div{
     display: flex;
     align-items: center;
@@ -62,7 +67,7 @@
 .username{
     font-family: Montserrat;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 16px;
     opacity: .7;
 }
 

@@ -7,6 +7,7 @@
 
 .input_field input{
     height: 50px;
+    width: 100%;
     border: 1px solid #b9b9b9;
     padding: 0 16px;
     border-radius: 8px;

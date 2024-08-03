@@ -16,10 +16,11 @@ const Navbar = ({user}:{user:any}) =>{
             </div>
 
             <div className={styles.user_info}>
-                <div>
+                <Link href="/home/profile"><div>
                     <img src="/images/avatar.jpg" alt="user avatar" />
                     <p className={styles.username}>{getFirstName(user.fullName)}</p>
                 </div>
+                </Link>
                 <button>Criar serviço</button>
             </div>
             

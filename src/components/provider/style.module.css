@@ -15,6 +15,13 @@
     margin-top: 8px;
 }
 
+.avatar{
+    width: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 .box_description p{
     opacity: .7;
 }
