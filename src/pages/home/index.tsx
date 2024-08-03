@@ -11,6 +11,7 @@ import Footer from '@/components/footer'
 import { getFakeTestimony } from '@/actions/testimony'
 import { getCookie, hasCookie } from 'cookies-next'
 import service from '@/actions/service'
+import { ToastContainer } from 'react-toastify'
 
 
 const Home = ({testimony, user, services}:{testimony:Array<any>, user:Object, services:Array<Object>}) =>{
@@ -18,11 +19,12 @@ console.log(services)
     return(
         <>
         <Metadata title='Offices'/>
+        <ToastContainer />
              <main>
                <Heading user={user}/>
                <Category />
-               <Service />
-               <Provider />
+               <Service data={services}/>
+               <Provider data={testimony}/>
                <About />
                <Download />
                <Testimony data={testimony}/>

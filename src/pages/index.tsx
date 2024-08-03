@@ -34,7 +34,7 @@ export default function Home() {
                 <button className={index == 1 ? styles.selected : ''} onClick={()=>setIndex(1)}>Criar conta</button>
               </div>
               {index == 0 && <FormLogin />}
-              {index == 1 && <FormSignUp />}
+              {index == 1 && <FormSignUp setIndex={setIndex}/>}
             </div>
            
         </div>
