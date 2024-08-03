@@ -1,6 +1,6 @@
 # Bulir Challenge 002
 Esse projecto, consiste na criação do front-end para consumir a API do desafio 001  <br /><br />
-Para esse projecto foi usado o <b>Reactjs, propriamente o Nextjs</b>, e <b>Mysql</b>
+Para esse projecto foi usado o <b>Reactjs, propriamente o Nextjs</b>, e <b>Typescript</b>
 
 ## * Requisitos para rodar na maquina local
 <ul>
