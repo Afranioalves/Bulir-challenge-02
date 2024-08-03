@@ -1,40 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bulir Challenge 002
+Esse projecto, consiste na criação do front-end para consumir a API do desafio 001  <br /><br />
+Para esse projecto foi usado o <b>Reactjs, propriamente o Nextjs</b>, e <b>Mysql</b>
 
-## Getting Started
+## * Requisitos para rodar na maquina local
+<ul>
+    <li>Versão 18 do NodeJs Instalado [ <a href="https://nodejs.org/pt/download/prebuilt-installer" target="blank"> Baixar Aqui</a> ]</li>
+</ul>
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Depois de cumprir com o requisito citado a cima, clone o repositorio na sua maquina e siga os seguintes passos :
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<ol>
+    <li>Abra o terminal ou prompt command na pasta do projecto;</li>
+    <li>Rode o comando <code>npm install</code>, para instalar as depedências;</li>
+    <li>Abra o projecto em um editor de texto, recomendo usar o <b>vs code</b>;</li>
+    <li>Mude o nome do arquivo <b>.env.exemple</b>, para <b>.env</b> ;</li>
+     <li>Substitua o valor do <b>NEXT_PUBLIC_API_URL </b>, pelo endereço da URL onde API está rodando</b>, se for no mesmo endereço <b>http://localhost:8080 </b>, pode manter o valor;</li>
+    <li>Abra o terminal dentro da pasta do projecto e rode o comando <code>npm run dev</code> para rodar o projecto</li>
+</ol>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+A aplicação estará rodando em <a href="http://localhost:3000" target="blank">http://localhost:3000</a>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## * Importante
+### Caso apresenta algum erro ou warning sobre Hidratation, pode ignorar 
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### Autor
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Nome: Afrânio Alves<br />
+Email: afranio777alves@gmail.com<br />
+Telefone: +244 945-784-248<br />
+Behance: [behance.net/afrnioalves](behance.net/afrnioalves)<br />
+Github: [https://github.com/afranioalves](https://github.com/afranioalves)<br />
+Linkedin: [https://www.linkedin.com/in/afranioalves/](https://www.linkedin.com/in/afranioalves/)
